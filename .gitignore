@@ -31,3 +31,20 @@ build/
 
 ### VS Code ###
 .vscode/
+# Uploaded resumes and personal files
+uploads/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Local application configuration
+application-local.properties
+
+# Build output
+target/
+
+# IDE settings
+.vscode/
+.idea/
